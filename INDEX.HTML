@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Score</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:,100,200,300,regular,500,600;700,100italic,200italic,300italic,italic,500italic,600italic,700italic" rel="stylesheet">
+</head>
+<body>
+    
+<div class="container" >
+    <div class="sub-container resposive-sub-container">
+    <div>
+        <h3>HOME</h3>
+        <div class="score-board">
+            <p id="home-container">0</p>
+        </div>
+        <div class="button-group">
+            <button class="btn"onclick="homeIncrementFunction(1)">+1</button>
+            <button class="btn" onclick="homeIncrementFunction(2)">+2</button>
+            <button class="btn" onclick="homeIncrementFunction(3)">+3</button>
+        </div>
+        <button class="clear-btn resposive-clear-btn" onclick="clearHomeEl()">clear</button>
+    </div>
+
+    </div>
+    <div class="sub-container resposive-sub-container">
+    <div>
+        <h3>GUEST</h3>
+        <div class="score-board">
+            <p id="guest-container">0</p>
+        </div>
+        <div class="button-group">
+            <button class="btn"onclick="guestIncrementFunction(1)">+1</button>
+            <button class="btn"onclick="guestIncrementFunction(2)">+2</button>
+            <button class="btn"onclick="guestIncrementFunction(3)">+3</button>
+        </div>
+        <button class="clear-btn  resposive-clear-btn " onclick="ClearGuest()">clear</button>
+        </div>
+        
+
+    </div>
+    
+</div> 
